@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title></title>
+    <style type="text/css">
+        /*基础样式*/
+        *{padding:0;margin:0;list-style: none;border:0;color:#777;} body {min-height:800px;background-color:#112233;margin:20px;} h1 { padding: 20px 0;margin:0 0 -10px;text-align:center;border-bottom: 1px dashed #246;color: #FAFAFA;text-shadow: 0 1px 0 #111} h2 { font-size: 1.7em;color:#F37;margin:.5em 0;padding:.1em 0;} h3 { font-size: 1.52em;color:#fd5} p { padding: .8em 0}a{text-decoration: none;color:#0df}#nav{display:block;width:100px;height:30px;margin:0 auto;text-align:center;line-height:30px;background: #022538; background-color: rgba(8,32,50,0.85); background: -webkit-gradient(linear, 0 0, 0 90%, from(rgba(12,46,65,0.7)), to(rgba(0,35,54,0.9))); border: 1px solid #3A4D5B; border: 1px solid rgba(255,255,255,0.2); border-radius: 1px; -moz-border-radius: 1px; color: #abc; text-shadow: 0 1px 0 #000; box-shadow: 0 1px 3px rgba(10,10,0,0.6); -webkit-box-shadow: 0 1px 3px rgba(10,10,0,0.6); -moz-box-shadow: 0 1px 3px rgba(10,10,0,0.6); -webkit-transition: all 0.45s linear;-moz-transition: all 0.45s linear;}.clear{clear:both;margin:20px 0;}
+         /*基础样式结束*/
+
+        /*democss开始*/
+
+        /*利用margin负值切图*/
+        .margin-clip{
+            float:left; /*必须*/
+            width:150px;
+            height:90px;
+            overflow:hidden;
+            border:1px solid #ccc;
+        }
+        .margin-clip img{
+            margin:-20px -15px -40px -55px;
+        }
+        /*利用绝对定位负值切割图片大小*/
+        .position-clip{
+            width:150px;
+            height:90px;
+            overflow:hidden;
+            position:relative;
+            border:1px solid #ccc;
+        }
+        .position-clip img{
+            position:absolute;
+            top:-20px;
+            left:-55px;
+        }
+        /*利用css clip切割图片大小*/
+        .clip{
+            position:relative;
+            width:150px;
+            height:90px;
+            border:1px solid #ccc;
+        }
+        .clip img{
+            position:absolute;
+            top:-20px;
+            left:-55px;
+            clip:rect(20px 205px 110px 55px);
+        }
+            /*democss结束*/
+    </style>
+</head>
+<body>
+
+<h1>html5jscss前端网实验室</h1>
+<a id="nav" href="http://www.html5jscss.com">返回文章</a>
+<!--demo html-->
+<h2>css切割图片大小三种方法</h2>
+<p>这是原图</p>
+<p><img src="../img/clip.jpg" alt="http://www.html5jscss.com/前端网"/></p>
+
+<div class="clear">
+    <h3>方法一：利用margin负值切割图片大小</h3>
+    <div class="margin-clip"><a title="Css Templates" href="http://html5jscss.com"><img alt="http://www.html5jscss.com，" src="../img/clip.jpg" ></a></div>
+</div>
+
+<div class="clear">
+    <h3>方法二：利用绝对定位负值切割图片大小</h3>
+    <div class="position-clip"><a title="Css Templates" href="http://html5jscss.com"><img alt="http://www.html5jscss.com，" src="../img/clip.jpg"></a></div>
+</div>
+<div class="clear">
+    <h3>方法三：利用css clip切割图片大小</h3>
+    <div class="clip">
+        <a title="Css Templates" href="http://html5jscss.com"><img alt="http://www.html5jscss.com" src="../img/clip.jpg"></a>
+    </div>
+</div>
+
+</body>
+</html>

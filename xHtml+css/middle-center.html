@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title></title>
+    <style type="text/css">
+    /*基础样式*/
+        *{padding:0;margin:0;list-style: none;border:0;color:#777;} body {min-height:800px;background-color:#112233;margin:20px;} h1 { padding: 20px 0;margin:0 0 -10px;text-align:center;border-bottom: 1px dashed #246;color: #FAFAFA;text-shadow: 0 1px 0 #111} h2 { font-size: 1.7em;color:#F37;margin:.5em 0;padding:.1em 0;} h3 { font-size: 1.52em;color:#fd5} p { padding: .8em 0}a{text-decoration: none;color:#0df}#nav{display:block;width:100px;height:30px;margin:0 auto;text-align:center;line-height:30px;background: #022538; background-color: rgba(8,32,50,0.85); background: -webkit-gradient(linear, 0 0, 0 90%, from(rgba(12,46,65,0.7)), to(rgba(0,35,54,0.9))); border: 1px solid #3A4D5B; border: 1px solid rgba(255,255,255,0.2); border-radius: 1px; -moz-border-radius: 1px; color: #abc; text-shadow: 0 1px 0 #000; box-shadow: 0 1px 3px rgba(10,10,0,0.6); -webkit-box-shadow: 0 1px 3px rgba(10,10,0,0.6); -moz-box-shadow: 0 1px 3px rgba(10,10,0,0.6); -webkit-transition: all 0.45s linear;-moz-transition: all 0.45s linear;}.clear{overflow:hidden;zoom1margin:20px 0;}
+    /*基础样式结束*/
+    /*democss开始*/
+    /*line-height方法*/
+    .static {
+        width:500px;
+        height:200px;
+        line-height:200px;
+        overflow:hidden;
+        border:1px solid #ccc;
+        text-align:center;
+    }
+    .static img {
+        vertical-align: middle;
+        border:1px solid #ccc;
+    }
+
+    /*table-cell方法*/
+    .parent{
+        display:table;
+        width:500px;
+        height:200px;
+        border:1px solid #ddd;
+        *position:relative;
+    }
+    .parent .table-cell{
+        display:table-cell;
+        text-align:center;
+        vertical-align:middle;
+        *position:absolute;    /*容器a目的是自己的左上角与父容器中心点对齐*/
+        *left:50%;
+        *top:50%;
+    }
+    .parent .table-cell .pos{
+        *position:relative;    /*图片设置负值是使自己的中心点与父容器的中心点重合，最终达到居中的目的*/
+        *left:-50%;
+        *top:-50%;
+    }
+    /*inline-block法*/
+    #parent {
+        width:500px;
+        height:200px;/*定义高度，让线盒型div#extra有一个参照物，可以是固定值，也可以是百分比*/
+        border: 1px solid #ddd;
+        text-align:center;
+    }
+    #center, b {
+        display: inline-block;/*把元素转为行内块显示*/
+        vertical-align: middle;/*垂直居中*/
+    }
+    b {
+        height: 100%; /*设置线盒型为父元素的100%高度*/
+    }
+    /*绝对定位法*/
+    #content{
+        position: relative;
+        width:500px;
+        height: 200px;
+        border:1px solid #ddd;
+
+    }
+    #content .pic{
+        position: absolute;
+        left: 50%;
+        top:50%;
+        margin:-55px 0 0 -140px;/*上值的大小等于元素高度的一半，左值的大小等于元素宽度的一半*/
+    }
+
+     /*其他方法一*/
+    .box {
+        /*非IE的主流浏览器识别的垂直居中的方法*/
+        display: table-cell;
+        vertical-align:middle;
+
+        /*设置水平居中*/
+        text-align:center;
+
+        /* 针对IE的Hack */
+        *display: block;
+        *font-size: 175px;/*约为高度的0.873，200*0.873 约为175*/
+        *font-family:Arial;/*防止非utf-8引起的hack失效问题，如gbk编码*/
+
+        width:500px;
+        height:200px;
+        border: 1px solid #eee;
+    }
+    .box img {
+        /*设置图片垂直居中*/
+        vertical-align:middle;
+    }
+    /*其他方法二*/
+    /*待续*/
+
+    /*democss结束*/
+    </style>
+
+    <!--line-height法IE6hack-->
+    <!--[if IE 6]>
+    <style type="text/css">
+        .static a{
+            height: 100%; /* 要保证和父元素高度一样才行 */
+            writing-mode: tb-rl;
+            vertical-align: middle;
+        }
+    </style>
+    <![endif]-->
+
+    <!--inline-block法IE67hack-->
+    <!--[if lt IE 8]>
+    <style type="text/css"> /*IE6-7不支持display:inline-block，所以在ie6-7另外写一个hack，用来支持ie6-7*/
+    #center,b { display: inline; zoom:1;}
+    </style>
+    <![endif]-->
+
+</head>
+<body>
+
+<h1>html5jscss前端网实验室</h1>
+<a id="nav" href="http://www.html5jscss.com">返回文章</a>
+<!--demo html-->
+<h2></h2>
+<h3>方法一：使用line-height使垂直居中</h3>
+<div  class="static">
+    <a href="http://www.html5jscss.com"><img src="../img/html5jscss.jpg" alt="html5jscss.com" /> </a>
+</div>
+<h3>方法二：使用table-cell使垂直居中</h3>
+<div  class="parent">
+    <a class="table-cell" href="http://www.html5jscss.com"><img class="pos" src="../img/html5jscss.jpg" alt="html5jscss.com" /> </a>
+</div>
+<h3>方法三：使用inline-block使垂直居中</h3>
+<div id="parent">
+    <a id="center" href="http://www.html5jscss.com"> <img src="../img/html5jscss.jpg" alt="html5jscss.com" /> </a>
+    <b></b>
+</div>
+<h3>方法四：使用绝对定位使垂直居中</h3>
+<div id="content"><a class="pic" href="http://www.html5jscss.com"> <img src="../img/html5jscss.jpg" alt="html5jscss.com" width="280" height="110"/> </a>
+</div>
+<h3>方法五：padding法，直接看文章吧</h3>
+
+<p>这里再介绍两种</p>
+<h3>其他方法一</h3>
+<div class="box"><img src="../img/html5jscss.jpg" alt="html5jscss.com" width="280" height="110"/> </a></div>
+<h3>待续。。。</h3>
+
+</body>
+</html>
