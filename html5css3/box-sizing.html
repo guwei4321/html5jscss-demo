@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>box-sizing</title>
+    <style type="text/css">
+            /*基础样式*/
+        *{padding:0;margin:0;list-style: none;border:0;color:#777;} body {min-height:800px;background-color:#112233;margin:20px;} h1 { padding: 20px 0;margin:0 0 -10px;text-align:center;border-bottom: 1px dashed #246;color: #FAFAFA;text-shadow: 0 1px 0 #111} h2 { font-size: 1.7em;color:#F37;margin:.5em 0;padding:.1em 0;} h3 { font-size: 1.52em;color:#fd5} p { padding: .8em 0}a{text-decoration: none;color:#0df}#nav{display:block;width:100px;height:30px;margin:0 auto;text-align:center;line-height:30px;background: #022538; background-color: rgba(8,32,50,0.85); background: -webkit-gradient(linear, 0 0, 0 90%, from(rgba(12,46,65,0.7)), to(rgba(0,35,54,0.9))); border: 1px solid #3A4D5B; border: 1px solid rgba(255,255,255,0.2); border-radius: 1px; -moz-border-radius: 1px; color: #abc; text-shadow: 0 1px 0 #000; box-shadow: 0 1px 3px rgba(10,10,0,0.6); -webkit-box-shadow: 0 1px 3px rgba(10,10,0,0.6); -moz-box-shadow: 0 1px 3px rgba(10,10,0,0.6); -webkit-transition: all 0.45s linear;-moz-transition: all 0.45s linear;}.clear{overflow:hidden;zoom1margin:20px 0;}
+        /*基础样式结束*/
+        /*democss开始*/
+        .example{ background:#d2edf6; border:5px solid #0f9147; padding:0 30px 0 30px; }
+        #out-box{ width:228px;height:100px;margin:30px;box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;content-box/*遵循w3c的和标准 border-box遵循ie6的和模型*/}
+        #in-box{width:100%;height:100%;border:5px solid #fff;box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box;border-box/*遵循w3c的和标准 border-box遵循ie6的和模型*/}
+        .example1{width:228px;height:100px;}
+        #content-box{box-sizing:content-box; -webkit-box-sizing:content-box; -moz-box-sizing:content-box;}
+        #border-box{box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; }
+        /*同意表单元素*/
+        form { width: 200px; padding: 10px; border: 1px solid #ccc; }
+        .form-field { margin:5px 0; background: #cdcdcd; padding: 2px; }
+        .submit, .reset, .button, .text, .select, .textarea {width: 80px; height:28px;border-color: red;box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; }
+        .textarea { resize: none; }
+        /*democss结束*/
+    </style>
+</head>
+<body>
+
+<h1>html5jscss前端网实验室</h1>
+<a id="nav" href="http://www.html5jscss.com">返回文章</a>
+<!--demo html-->
+<h2>box-sizing</h2>
+<div id="out-box" class="example">
+    <div id="in-box" class="example"></div>
+</div>
+<h2>box-sizing属性比较</h2>
+<div class="example example1" id="content-box">content-box</div>
+<br/>
+<div class="example example1" id="border-box">border-box</div>
+<h2>用box-sizing来同意表单控件样式</h2>
+
+<form action="#" method="post">
+    <div class="form-field"><input type="submit" value="submit" class="submit"/></div>
+    <div class="form-field"><input type="reset" value="reset" class="reset"/></div>
+    <div class="form-field">
+        <button class="button">button</button>
+    </div>
+    <div class="form-field"><input type="text" value="text" class="text"/></div>
+    <div class="form-field"><select name="select" id="select" class="select">
+        <option value="1">1989</option>
+    </select></div>
+    <div class="form-field"><input type="checkbox" class="checkbox"/>checkbox</div>
+    <div class="form-field"><input type="radio" class="radio"/>radio</div>
+    <div class="form-field"><textarea name="textarea" id="" cols="30" rows="3" class="textarea"></textarea></div>
+</form>
+</body>
+</html>
+
