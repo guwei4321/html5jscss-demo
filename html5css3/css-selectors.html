@@ -1,0 +1,155 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title>css3选择器</title>
+    <style type="text/css">
+            /*基础样式*/
+        *{padding:0;margin:0;list-style: none;border:0;color:#777;} body {min-height:800px;background-color:#112233;margin:20px;} h1 { padding: 20px 0;margin:0 0 -10px;text-align:center;border-bottom: 1px dashed #246;color: #FAFAFA;text-shadow: 0 1px 0 #111} h2 { font-size: 1.7em;color:#F37;margin:.5em 0;padding:.1em 0;} h3 { font-size: 1.52em;color:#fd5} p { padding: .8em 0}a{text-decoration: none;color:#0df}#nav{display:block;width:100px;height:30px;margin:0 auto;text-align:center;line-height:30px;background: #022538; background-color: rgba(8,32,50,0.85); background: -webkit-gradient(linear, 0 0, 0 90%, from(rgba(12,46,65,0.7)), to(rgba(0,35,54,0.9))); border: 1px solid #3A4D5B; border: 1px solid rgba(255,255,255,0.2); border-radius: 1px; -moz-border-radius: 1px; color: #abc; text-shadow: 0 1px 0 #000; box-shadow: 0 1px 3px rgba(10,10,0,0.6); -webkit-box-shadow: 0 1px 3px rgba(10,10,0,0.6); -moz-box-shadow: 0 1px 3px rgba(10,10,0,0.6); -webkit-transition: all 0.45s linear;-moz-transition: all 0.45s linear;}.clear{overflow:hidden;zoom1margin:20px 0;}
+            /*基础样式结束*/
+            /*democss开始*/
+        input
+        {
+            width: 200px;
+            height: 20px;
+        }
+        [type]
+        {
+            border: 2px solid red;
+        }
+        [type="button"]
+        {
+
+            background-color: #000;
+        }
+        a[href$=".com"][title^="html5jscss"]
+        {
+            color: red;
+        }
+        [class|="post"]
+        {
+            color: blue;
+        }
+        [class~="pp"]
+        {
+            color: #ff69b4;
+        }
+        h2 ~ p {
+            color: #98fb98;
+        }
+        h2 + p {
+            color: #eee8aa;
+        }
+        h2 >p{
+            color: red;
+            display: inline;
+            font-size: 12px;
+        }
+        h2+a:after
+        {
+            content: '...'
+        }
+        h2+a:before
+        {
+            content: '...'
+        }
+        #nth-first-last :first-child
+        {
+            color: #4169e1;
+        }
+        #nth-first-last p:first-of-type
+        {
+            color:#ffd700;
+        }
+        #nth-first-last :last-child
+        {
+            color: #9acd32;
+        }
+        #nth-first-last p:last-of-type{
+            color: #cd853f;
+        }
+        #nth-first-last :nth-child(2){
+            color:purple;
+        }
+        #nth-first-last :nth-last-child(2){
+            color:#afeeee;
+        }
+        #nth-first-last p:nth-of-type(2)
+        {
+            color: #6a5acd;
+        }
+        #nth-first-last p:nth-last-of-type(2)
+        {
+            color:teal;
+        }
+        #only-child p:only-child{
+            color: #f5deb3;
+        }
+        #only-of-type p:only-of-type{
+            color: #4b0082;
+        }
+        $li > p { border: 1px solid #ccc; }
+            /*democss结束*/
+    </style>
+</head>
+<body>
+<h1>html5jscss前端网实验室</h1>
+<a id="nav" href="http://www.html5jscss.com/css-selectors-34.html">返回文章</a>
+<!--demo html-->
+<h2>属性选择器</h2>
+
+<h3>[att] 简单属性选择</h3>
+<input type="text" />
+<br>
+<br>
+<h3>[att=value] 属性跟值都要求一样</h3>
+<input type="button"/>
+<br>
+<br>
+<h3>属性跟值都要求一样，并且两个属性选择器链接在一起</h3>
+<a href="http://www.html5jscss.com" title="html5jscss前端网">html5jscss前端网</a>
+<br>
+<br>
+<h3>以“value”开始并立即跟上一个“-”字符，也就是“value-”</h3>
+<span class="post-blue">html5jscss前端网</span>
+<br>
+<br>
+<h3>以“value”开始并立即跟上一个“~”字符，本例子说明[class~="pp"]：只要class里 pp 类名就被选择</h3>
+<a href="" class="oo pp aa">html5jscss前端网</a>
+<br>
+<br>
+<p>基本选择器~，IE6不支持</p>
+<h2>兄弟选择<p>基本选择器>，IE6不支持</p></h2>
+<p>基本选择器+，IE6不支持</p>
+<p>基本选择器~，IE6不支持</p>
+
+<h2>伪类</h2>
+<a href="http://www.html5jscss.com">伪类:content:after 伪类:contert:before</a>
+
+<h2>CSS3的选择器</h2>
+
+<div id="nth-first-last">
+    <div>*:first-child</div>
+    <div>*:nth-child(2)</div>
+    <p>p:first-of-type</p>
+    <p>p:nth-of-type</p>
+    <p>p:nth-last-of-type</p>
+    <p>p:last-of-type</p>
+    <div id="only-child">
+        <p>ada</p>
+    </div>
+    <div id="only-of-type">
+        <p>ada</p>
+        <span>我来凑热闹</span>
+        <span>我来凑热闹</span>
+    </div>
+    <div>*:nth-last-child(2)</div>
+    <div>*:last-child</div>
+</div>
+<h2>CSS4选择器</h2>
+
+
+
+</body>
+</html>

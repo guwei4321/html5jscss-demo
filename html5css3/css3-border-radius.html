@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title></title>
+    <style type="text/css">
+            /*基础样式*/
+        *{padding:0;margin:0;list-style: none;border:0;color:#777;} body {min-height:800px;background-color:#112233;margin:20px;} h1 { padding: 20px 0;margin:0 0 -10px;text-align:center;border-bottom: 1px dashed #246;color: #FAFAFA;text-shadow: 0 1px 0 #111} h2 { font-size: 1.7em;color:#F37;margin:.5em 0;padding:.1em 0;} h3 { font-size: 1.52em;color:#fd5} p { padding: .8em 0}a{text-decoration: none;color:#0df}#nav{display:block;width:100px;height:30px;margin:0 auto;text-align:center;line-height:30px;background: #022538; background-color: rgba(8,32,50,0.85); background: -webkit-gradient(linear, 0 0, 0 90%, from(rgba(12,46,65,0.7)), to(rgba(0,35,54,0.9))); border: 1px solid #3A4D5B; border: 1px solid rgba(255,255,255,0.2); border-radius: 1px; -moz-border-radius: 1px; color: #abc; text-shadow: 0 1px 0 #000; box-shadow: 0 1px 3px rgba(10,10,0,0.6); -webkit-box-shadow: 0 1px 3px rgba(10,10,0,0.6); -moz-box-shadow: 0 1px 3px rgba(10,10,0,0.6); -webkit-transition: all 0.45s linear;-moz-transition: all 0.45s linear;}.clear{overflow:hidden;zoom1margin:20px 0;}
+            /*基础样式结束*/
+            /*democss开始*/
+            .exampale{
+                width: 100px;
+                height: 100px;
+                background-color: #fff;
+                margin: 10px;
+            }
+            .radius1 {
+                border-radius: 10px 20px 30px 40px / 40px 30px 20px 10px;
+            }
+            /*radius1这个等同于*/
+            .radius2 {
+                 border-top-left-radius: 10px 40px;
+                 border-top-right-radius: 20px 30px;
+                 border-bottom-right-radius: 30px 20px;
+                 border-bottom-left-radius: 40px 10px;
+             }
+            .radius3{
+                border-radius: 20px / 10px 20px 30px;
+            }
+            .radius4 {
+                border-radius: 50px;	/* 数值相等且范围在 1/ 2width（height）到 width（height） 都是圈 */
+            }
+
+            /* 用 CSS 產生完整的圓形 */
+            .radius5 {
+                border-radius: 50%;	/* 数值相等大于50%都是园圈 */
+            }
+            .radius-content-box{
+                width: 40px;
+                height: 40px;
+                border: solid 30px;
+                padding: 10px;
+                border-color: orange orange silver silver;
+                border-top-left-radius: 50%;
+                border-top-right-radius: 60px;
+                border-bottom-right-radius: 50%;
+                border-bottom-left-radius: 50%;
+                box-sizing: content-box;
+                -moz-box-sizing: content-box;
+                -webkit-box-sizing: content-box;
+            }
+            .radius-border-box {
+                width: 90px;
+                height: 90px;
+                border: solid 30px;
+                border-color: orange orange silver silver;
+                border-top-left-radius: 50%;
+                border-top-right-radius: 45px;
+                border-bottom-right-radius: 50%;
+                border-bottom-left-radius: 50%;
+                padding: 10px;
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+            }
+            .radius-boder-width{
+                border: 25px solid red;
+                border-radius: 15px 25px 45px 65px;
+            }
+            .radius-border-width-style{
+                border-color: red blue green yellow;
+                border-style: solid;
+                border-width: 30px 10px;
+            }
+
+        img { border: 5px solid red; border-radius: 100px;border-collapse: separate; }
+        table {  border: 2px solid red; background: #fff; border-radius: 15px; }
+        .collapse{border-collapse: collapse;}
+        .separate{border-collapse: separate;}
+            /*democss结束*/
+    </style>
+</head>
+<body>
+
+<h1>html5jscss前端网实验室</h1>
+<a id="nav" href="http://www.html5jscss.com">返回文章</a>
+<!--demo html-->
+
+<h2>Border-radius</h2>
+<h3>border-radius四个方位值</h3>
+<div class="exampale radius1"></div>
+<div class="exampale radius2"></div>
+<h3>border-radius方位简写方式</h3>
+<div class="exampale radius3"></div>
+<h3>不同盒模型下半分比和绝对宽度换算</h3>
+<div class="radius-content-box"></div>
+<div class="radius-border-box"></div>
+<h3>正方形变圆形</h3>
+<div class="exampale radius4"></div>
+<div class="exampale radius5"></div>
+<h3>内半径受border宽度影响</h3>
+<div class="exampale radius-boder-width"></div>
+<h3>border-style转变转变的界线受border-width影响</h3>
+<div class="exampale radius-border-width-style"></div>
+
+<h2>应用中的特殊情况</h2>
+
+<h3>不能直接用在图片上</h3>
+<img src="img/car.jpg" alt="">
+<h3>不能直接用在table</h3>
+<h4>border-collapse: collapse;</h4>
+<table class="collapse">
+    <tbody><tr><th>Col 1</th><th>Col 2</th><th>Col 3</th></tr>
+    <tr><td>1</td><td>1</td><td>2</td></tr>
+    <tr><td>3</td><td>5</td><td>8</td></tr>
+    <tr><td>13</td><td>21</td><td>34</td></tr>
+</tbody>
+</table>
+<h4>border-collapse: separate;</h4>
+<table class="separate">
+    <tbody><tr><th>Col 1</th><th>Col 2</th><th>Col 3</th></tr>
+    <tr><td>1</td><td>1</td><td>2</td></tr>
+    <tr><td>3</td><td>5</td><td>8</td></tr>
+    <tr><td>13</td><td>21</td><td>34</td></tr>
+    </tbody>
+</table>
+</body>
+</html>

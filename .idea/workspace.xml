@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d17fc61-77cb-40ce-8264-50eaf625087a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5css3/box-sizing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5css3/img/car.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/rounded-corner-sprite.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xHtml+css/img/rounded-corner-sprite.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5css3/css-selectors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5css3/css3-Opacity&amp;Rgba&amp;Hsla.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5css3/css3-border-radius.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xHtml+css/css-border-radius.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/xHtml+css/input-acquiesce-css.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="html5jscss-demo.iws" />
@@ -38,7 +44,7 @@
       <file leaf-file-name="box-sizing.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html5css3/box-sizing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="60" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.6551724">
+            <state line="19" column="60" selection-start="2360" selection-end="2360" vertical-scroll-proportion="1.7204301">
               <folding />
             </state>
           </provider>
@@ -47,7 +53,7 @@
       <file leaf-file-name="demo-css.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo-css.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="1044" selection-start="0" selection-end="1595" vertical-scroll-proportion="-4.75">
+            <state line="7" column="1044" selection-start="0" selection-end="1595" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,7 +112,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -127,6 +132,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,15 +181,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33603895" sideWeight="0.671521" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34253246" sideWeight="0.671521" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -194,6 +199,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -259,14 +265,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-css.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1044" selection-start="0" selection-end="1595" vertical-scroll-proportion="-4.75">
+        <state line="7" column="1044" selection-start="0" selection-end="1595" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html5css3/box-sizing.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="60" selection-start="2360" selection-end="2360" vertical-scroll-proportion="0.6551724">
+        <state line="19" column="60" selection-start="2360" selection-end="2360" vertical-scroll-proportion="1.7204301">
           <folding />
         </state>
       </provider>

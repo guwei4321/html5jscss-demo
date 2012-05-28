@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title></title>
+    <style type="text/css">
+            /*基础样式*/
+        *{padding:0;margin:0;list-style: none;border:0;color:#777;} body {min-height:800px;background-color:#112233;margin:20px;} h1 { padding: 20px 0;margin:0 0 -10px;text-align:center;border-bottom: 1px dashed #246;color: #FAFAFA;text-shadow: 0 1px 0 #111} h2 { font-size: 1.7em;color:#F37;margin:.5em 0;padding:.1em 0;} h3 { font-size: 1.52em;color:#fd5} p { padding: .8em 0}a{text-decoration: none;color:#0df}#nav{display:block;width:100px;height:30px;margin:0 auto;text-align:center;line-height:30px;background: #022538; background-color: rgba(8,32,50,0.85); background: -webkit-gradient(linear, 0 0, 0 90%, from(rgba(12,46,65,0.7)), to(rgba(0,35,54,0.9))); border: 1px solid #3A4D5B; border: 1px solid rgba(255,255,255,0.2); border-radius: 1px; -moz-border-radius: 1px; color: #abc; text-shadow: 0 1px 0 #000; box-shadow: 0 1px 3px rgba(10,10,0,0.6); -webkit-box-shadow: 0 1px 3px rgba(10,10,0,0.6); -moz-box-shadow: 0 1px 3px rgba(10,10,0,0.6); -webkit-transition: all 0.45s linear;-moz-transition: all 0.45s linear;}.clear{overflow:hidden;zoom1margin:20px 0;}
+            /*基础样式结束*/
+            /*democss开始*/
+        .radius{display:block}
+        .radius *{
+            display:block;
+            height:1px;
+            overflow:hidden;
+            font-size:.01em;
+            background:#e7ff94;
+        }
+        .radius1{
+            margin:0 4px;
+            border:1px solid #ff2000;
+            background:#ff2000;/*头尾边框色*/
+        }
+        .radius2{
+            margin:0 3px;
+            border:1px solid #ff2000;
+        }
+        .radius3{
+            margin:0 2px;
+            border:1px solid #ff2000;}
+        .radius4{
+            margin:0 1px;
+            border:1px solid #ff2000;}
+        .radius5{
+            margin:0 1px;
+            border:1px solid #ff2000;
+        }
+        .radius1,.radius2,.radius3,.radius4,.radius5{
+            border-top:none;
+            border-bottom:none;
+        }
+        .radiusContent{
+            border-left:1px solid #ff2000;
+            border-right:1px solid #ff2000;/*左右边框色*/
+            background:#e7ff94;
+            padding:10px;
+        }
+        .box {
+            position:relative;
+            width: 300px;
+            padding: 6px;
+            background-color: #fff;
+            border: 1px solid #D3D3D3;
+        }
+
+        .crnr {
+            position:absolute;
+            background:url("http://lab.html5jscss.com/img/rounded-corner-sprite.gif") no-repeat scroll 0 0 #FFFFFF;
+            width:5px;
+            height:5px;
+        }
+
+        .tl {
+            left:-1px;
+            top:-1px;
+        }
+
+        .tr {
+            right:-1px;
+            top:-1px;
+            background-position: 0 -6px
+        }
+
+        .bl {
+            left:-1px;
+            bottom:-1px;
+            background-position: 0 -12px
+
+        }
+
+        .br {
+            right:-1px;
+            bottom:-1px;
+            background-position: 0 -18px
+        }
+            /*democss结束*/
+    </style>
+</head>
+<body>
+
+<h1>html5jscss前端网实验室</h1>
+<a id="nav" href="http://www.html5jscss.com">返回文章</a>
+<!--demo html-->
+<h2>css3的Border-radius没到来前端工程师想出来的几个解决圆角的方法</h2>
+<h3>1px堆叠出圆角</h3>
+
+<p>通过用1px 的水平线条来堆叠出圆角，其中border和background的颜色填充来实现圆角边框，同时设置不同的左右margin数值（以1px为基数）来实现错位，从而整体上实现了简单的圆角效果。</p>
+<div>
+    <b class="radius">
+        <b class="radius1"></b>
+        <b class="radius2"></b>
+        <b class="radius3"></b>
+        <b class="radius4"></b>
+        <b class="radius5"></b>
+    </b>
+
+    <div class="radiusContent">
+        <!-- 显示内容区域 -->
+        1px堆叠出圆角 <br>
+        1px堆叠出圆角 <br>
+        1px堆叠出圆角 <br>
+        1px堆叠出圆角 <br>
+        1px堆叠出圆角 <br>
+        1px堆叠出圆角 <br>
+    </div>
+
+    <b class="radius">
+        <b class="radius5"></b>
+        <b class="radius4"></b>
+        <b class="radius3"></b>
+        <b class="radius2"></b>
+        <b class="radius1"></b>
+    </b>
+</div>
+<h3>利用图片</h3>
+
+<div style="width: 400px;height: 250px;padding:20px;background-color: #fff">
+    <div class="box">
+        <span class="crnr tl"></span>
+        <span class="crnr tr"></span>
+        为了能让圆角更加灵活，我们可以把容器里的每个圆角都做成一个独立的元素，通过CSS强行定位到父容器的四个角上。在这个方法里，我们只需要用到右边这个图片。当然也可以只需要使用两个图片（顶部和底部，也可以左边和右边，demo略）。
+        <span class="crnr bl"></span>
+        <span class="crnr br"></span>
+    </div>
+</div>
+</body>
+</html>
