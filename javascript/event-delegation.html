@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+    <style type="text/css">
+        *{padding:0;margin:0;list-style:none}
+        /*img{vertical-align:bottom}*/
+        a{color:#fff}
+        a:hover{text-decoration:underline;background-color:transparent}
+        p{text-indent:0;line-height:150%}
+            /*video Content*/
+        .video-con{padding:10px 13px;}
+        .main-stage{height:412px;}
+        .main-stage .hd .video-t{font:700 18px/34px \5fae\8f6f\96c5\9ed1}
+        .main-stage .hd .v-title{position:absolute;top:0;right:0;font:12px/34px \5b8b\4f53;color:#fff}
+        #video-list .list-col{padding:42px 0 0}
+        #video-list .list-col p{color:#ddd;padding:8px 0;text-align:center}
+        #video-list .list-col li{_display:inline;background:url("../images/video-on.png") 54px 30px no-repeat}
+        #video-list a{display:block;width:138px;height:86px;border:3px solid #350000;background-color:#000;opacity: 0.3;filter:alpha(opacity=30);}
+        #video-list a.on,#video-list a:hover{}
+        #video-list img{display:inline;z-index:-1}
+    </style>
+
+</head>
+<body>
+
+<!--上部视频-->
+<div class="video-con">
+    <!--视频主舞台-->
+    <div class="main-stage">
+        <div class="hd">
+            <h3 id="video-tit" class="video-t">世界篮球明星赛世界篮球明星赛</h3>
+            <a class="v-title" href="http://www.hupu.com/" title="更多关于世界篮球明星赛世界篮球明星赛的视频">更多&nbsp;&raquo;</a>
+        </div>
+        <div id="video-stage">
+            <object width="550" height="374">
+                <param value="http://static.youku.com/v1.0.0025/v/swf/qplayer.swf?VideoIDS=XNDQyOTEyNDYw&amp;isAutoPlay=false&amp;winType=index&amp;isShowRelatedVideo=false" name="movie">
+                <param value="true" name="allowFullScreen">
+                <param value="always" name="cdth">
+                <param value="transparent" name="wmode">
+                <embed width="550" height="374" type="application/x-shockwave-flash" quality="high" src="http://static.youku.com/v1.0.0025/v/swf/qplayer.swf?VideoIDS=XNDQyOTEyNDYw&amp;isAutoPlay=false&amp;winType=index&amp;isShowRelatedVideo=false" wmode="transparent" allownetworking="internal" cdth="false" swlivec="" invokeurls="true" loop="false">
+            </object>
+        </div>
+
+    </div>
+    <!--视频播放列表-->
+    <div id="video-list">
+        <ul class="list-col fn-left">
+            <li>
+                <a class="video-href" title="世界篮球明星赛世界篮球明星赛" href="http://static.youku.com/v1.0.0025/v/swf/qplayer.swf?VideoIDS=XNDQyOTEyNDYw&amp;isAutoPlay=false&amp;winType=index&amp;isShowRelatedVideo=false">
+                    <!--<img width="138" height="86" src="imagesDemo/i1.gif" alt="视频1图片">-->
+                </a>
+                <p>篮球明星赛</p>
+            </li>
+            <li>
+                <a class="video-href" title="视频2" href="http://p.you.video.sina.com.cn/swf/quotePlayer20100721_V4_4_39_0.swf?autoPlay=1&as=0&vid=84340078">
+                    <img width="138" height="86" href="http://p.you.video.sina.com.cn/swf/quotePlayer20100721_V4_4_39_0.swf?autoPlay=1&as=0&vid=84340078" alt="视频1图片">
+                </a>
+                <p>篮球明星赛</p>
+            </li>
+            <li>
+                <a class="video-href" title="视频3" href="http://p.you.video.sina.com.cn/swf/quotePlayer20100721_V4_4_39_0.swf?autoPlay=1&as=0&vid=84332615">
+                    <div style="width:20px;height:20px;background-color:#fff"></div>
+                </a>
+                <p>篮球明星赛</p>
+            </li>
+        </ul>
+        <ul class="list-col fn-right">
+            <li>
+                <a class="video-href" title="视频4" href="http://marketing.tudou.com/global/dwPlayer/DiggPlayer.swf?iid=150693032">
+                    <img src="http://tp1.sinaimg.cn/1898023932/50/5619787065/1" alt="视频1图片">
+                </a>
+                <p>篮球明星赛</p>
+            </li>
+            <li>
+                <a class="video-href" title="视频5" href="http://p.you.video.sina.com.cn/swf/quotePlayer20100721_V4_4_39_0.swf?autoPlay=1&as=0&vid=84324092">
+                    <img width="138" height="86" src="imagesDemo/i1.gif" alt="视频1图片">
+                </a>
+                <p>篮球明星赛</p>
+            </li>
+            <li>
+                <a class="video-href" title="视频6" href="http://p.you.video.sina.com.cn/swf/quotePlayer20100721_V4_4_39_0.swf?autoPlay=1&as=0&vid=84344237">
+                    <img width="138" height="86" src="imagesDemo/i1.gif" alt="视频1图片">
+                </a>
+                <p>篮球明星赛</p>
+            </li>
+        </ul>
+
+    </div>
+
+</div>
+<script type="text/javascript">
+    var Guwei ={};
+    Guwei.tool = function(){
+        return{
+            $:function(id){
+                return document.getElementById(id);
+            },
+            /*getEvt:function(event){
+                return event||window.event;
+            },
+            getTarget:function(event){
+                return event.target||event.srcElement;
+            },*/
+            preventDefault: function(event){
+                event.preventDefault ? event.preventDefault():event.returnValue = false;
+            },
+            stopPropagation:function(event){
+                event.stopPropagation ? event.stopPropagation():event.cancelBubble=true;
+            }
+        }
+    }();
+    function setvideo(url,videoStage){
+        var youku = Guwei.tool.$(videoStage);
+        var htmlstr =  "<object  name='obx' width='550' height='374'>";
+        htmlstr += "<param value='"+url+"' name='movie'></param>";
+        htmlstr += "<param value='true' name='allowFullScreen'></param>";
+        htmlstr += "<param value='always' name='cdth'></param>";
+        htmlstr += "<param value='transparent' name='wmode'></param>";
+        htmlstr += "<embed width='550' height='374' type='application/x-shockwave-flash' quality='high' src='"+url+"' wmode='transparent' allownetworking='internal' cdth='false' swlivec='' invokeurls='true' loop='false'>"
+        htmlstr += "</object>";
+        youku.innerHTML = htmlstr;
+    }
+    function tabVideo(videoID){
+        var videoList = Guwei.tool.$(videoID);
+        videoList.onclick = function(evt){
+            evt = evt || window.event;
+            var target = evt.target || evt.srcElement;
+            Guwei.tool.preventDefault(evt);
+            alert(target.nodeName);
+            if(target.nodeName.toLowerCase() == 'a'){
+                setvideo(target.href,"video-stage");
+            }
+        };
+        /*var videoTit  = Guwei.tool.$("video-tit");
+         var videoLnks = videoList.getElementsByTagName("a");
+         var indexValue = function(self, obj){
+         for (var i = 0; i < obj.length; i++) {
+         if (obj[i] == self)
+         return i;
+         }
+         };
+         var index;
+         var videoLen  = videoLnks.length;
+         videoLnks[0].className = "on";
+         for(var i=0;i<videoLen;i++){
+         videoLnks[i].videoIndex = i;
+         videoLnks[i].onclick = function(event){
+         var event = Guwei.tool.evt(event);
+         Guwei.tool.preventDefault(event);
+         index = indexValue(this, videoLnks);
+         for (var m = 0; m < videoLnks.length; m++) {
+         videoLnks[m].className = (m == index) ?' on' : ' ';//高亮显示点击项并移除其他项高亮
+         }
+         setvideo(this.href,"video-stage");
+         videoTit.innerHTML=this.title;
+         return false;
+         };
+         }*/
+    }
+    window.onload = function(){
+        tabVideo("video-list")
+    };
+</script>
+</body>
+</html>
