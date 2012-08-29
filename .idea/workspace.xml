@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d17fc61-77cb-40ce-8264-50eaf625087a" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\css\tour2012-main.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\imagesDemo\i1.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\imagesDemo\i2.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\imagesDemo\i3.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\imagesDemo\sponsor-01.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\images\bg-01.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\images\bg-02.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\images\bg-03.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\images\box-bg-01.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\images\box-bg-02.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\images\box-bg-03.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\images\box-bg-04.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\images\box-title.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\images\video-on.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\git-else\html5jscss-demo\xx\ivson-8-24\js\tour2012-main.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\css\tour2012-main.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\imagesDemo\i1.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\imagesDemo\i2.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\imagesDemo\i3.gif" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\imagesDemo\sponsor-01.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\bg-01.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\bg-02.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\bg-03.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\box-bg-01.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\box-bg-02.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\box-bg-03.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\box-bg-04.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\box-title.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\video-on.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\index.html" afterPath="" />
+      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\js\tour2012-main.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/event-delegation.html" afterPath="$PROJECT_DIR$/javascript/event-delegation.html" />
     </list>
     <ignored path="html5jscss-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,16 +52,7 @@
       <file leaf-file-name="event-delegation.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript/event-delegation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="34" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.5878553">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tool.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://D:/test/tool.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="14" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
+            <state line="76" column="34" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.93869734">
               <folding />
             </state>
           </provider>
@@ -90,10 +80,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="261" />
-    <option name="y" value="10" />
-    <option name="width" value="1412" />
-    <option name="height" value="993" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -139,20 +129,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html5jscss-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html5jscss-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascript" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -172,8 +148,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="settings.github" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
@@ -231,14 +207,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="261" y="10" width="1412" height="993" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36592594" sideWeight="0.6729452" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37253416" sideWeight="0.6729452" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -331,14 +307,9 @@
         <state line="2" column="9" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://D:/test/tool.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="14" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/event-delegation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="34" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.5878553">
+        <state line="76" column="34" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.93869734">
           <folding />
         </state>
       </provider>
