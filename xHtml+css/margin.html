@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title></title>
+    <style type="text/css">
+            /*基础样式*/
+        *{padding:0;margin:0;list-style: none;border:0;color:#777;} body {min-height:800px;background-color:#112233;margin:20px;} h1 { padding: 20px 0;margin:0 0 -10px;text-align:center;border-bottom: 1px dashed #246;color: #FAFAFA;text-shadow: 0 1px 0 #111} h2 { font-size: 1.7em;color:#F37;margin:.5em 0;padding:.1em 0;} h3 { font-size: 1.52em;color:#fd5} p { padding: .8em 0}a{text-decoration: none;color:#0df}#nav{display:block;width:100px;height:30px;margin:0 auto;text-align:center;line-height:30px;background: #022538; background-color: rgba(8,32,50,0.85); background: -webkit-gradient(linear, 0 0, 0 90%, from(rgba(12,46,65,0.7)), to(rgba(0,35,54,0.9))); border: 1px solid #3A4D5B; border: 1px solid rgba(255,255,255,0.2); border-radius: 1px; -moz-border-radius: 1px; color: #abc; text-shadow: 0 1px 0 #000; box-shadow: 0 1px 3px rgba(10,10,0,0.6); -webkit-box-shadow: 0 1px 3px rgba(10,10,0,0.6); -moz-box-shadow: 0 1px 3px rgba(10,10,0,0.6); -webkit-transition: all 0.45s linear;-moz-transition: all 0.45s linear;}.clear{overflow:hidden;zoom1margin:20px 0;}
+            /*基础样式结束*/
+            /*democss开始*/
+                .example{background:#efc}
+                .margin-merge1{margin:20px 0 0;}
+                .margin-merge2{border-top:1px solid #000}
+                .margin-merge3{margin:40px;background-color:red}
+                .margin-merge4{margin:-2px 0 10px;background-color:#fff}
+                .overlap-warp{position:relative;width:200px;height:300px;background-color:#adff2f;}
+                .overlap-warp .pos{position:absolute;width:100px;height:100px;display:inline;}
+                .overlap-warp .float{margin:0 0 0 100px;background-color:#eee8aa;}
+                .double-margin{width:820px;background-color:#fff;border:1px solid #ddd;overflow:hidden;_zoom:1;}
+                .double-margin-sub{float:left;width:200px;margin:0 0 0 20px;background:red}
+                .double-margin-main{float:left;width:600px;background:#0000ff}
+                .demoTab{width:400px; font:14px/1.5 Microsoft YaHei,verdana,Helvetica,Arial,sans-serif;}
+                .demoTab .demoTabNav{height:28px; overflow:hidden; *zoom:1;margin-bottom:-1px; border:1px solid red; border-bottom:none; background:#EAF0FD;}
+                .demoTab .demoTabList{float:left; margin-left:-1px;  padding:0 22px; line-height:28px; border-left:1px solid red; border-right:1px solid red;  font-weight:bold; color:#005590; text-align:center; cursor:pointer;}
+                .demoTab .demoTabList.current{position:relative; background:#fff;}
+                .demoTab .demoTabBd{border:1px solid red;}
+                .demoTab .demoTabBd .roundBox{padding:15px;}
+                .demoTab .demoTabContent{display:none;}
+                .demoTab .demoTabContent.current{display:block;}
+                .demoSpecItem{width:212px; min-height:178px; _height:178px;}
+                .demoSpecItem .demoItemPic{display:block; text-align:center;}
+                .demoSpecItem .demoItemPic img{padding:5px; border:1px solid #ccc;}
+                .demoSpecItem .demoIcon{display:block; margin:-185px 0 0 150px;}
+                .cross{overflow: hidden;zoom: 1;}
+                .cross li{float: left;padding: 0 11px 0 10px;border-left:1px solid #AAA;margin-left:-1px;}
+                .vertical{overflow: hidden;position: relative;zoom:1; }
+                .vertical li{border-top:1px dashed #CEE1EE;padding:5px 0;position:relative;top:-1px;}
+    </style>
+</head>
+<body>
+
+<h1>html5jscss前端网实验室</h1>
+<a id="nav" href="http://www.html5jscss.com">返回文章</a>
+<!--demo html-->
+<h2>Margin理解&&引用</h2>
+<h3>margin 垂直合并问题</h3>
+
+<p>实际效果</p>
+<div class="example">不设置宽高是为了让所有浏览器的实验条件相同，因为设置宽高处罚了IE的layout，IE中这个bug也就消失了</div>
+<div class="example">
+    <div class="example margin-merge1">因为没有上补白(padding-top)和上边框(border-top)，那么这个盒子的上边距会和其内部文档流中的第一个子元素的上边距重叠。</div>
+</div>
+<p>想要的效果</p>
+<div class="example">不设置宽高是为了让所有浏览器的实验条件相同，因为设置宽高处罚了IE的layout，IE中这个bug也就消失了</div>
+<div class="example">
+    <div class="example margin-merge2">
+        <div class="example margin-merge1">
+            因为没有上补白(padding-top)和上边框(border-top)，那么这个盒子的上边距会和其内部文档流中的第一个子元素的上边距重叠。
+        </div>
+    </div>
+</div>
+<h3>IEmargin双倍原因</h3>
+
+<div class="double-margin">
+    <div class="double-margin-sub">
+        left
+    </div>
+    <div class="double-margin-main">
+        left
+    </div>
+</div>
+
+<h3>IE6/7下margin与absolute元素重叠bug</h3>
+
+<div class="overlap-warp">
+    <div class="pos">
+       内容
+    </div>
+    <div class="float">
+        内容
+    </div>
+</div>
+<h3>负值影响布局</h3>
+
+<div class="margin-merge3">123123123123123123</div>
+<div class="margin-merge4">123123123123123123</div>
+
+<h3>利用负值的 tab 选项卡</h3>
+<div id="demoTab" class="demoTab">
+    <!--<div class="demoTabHd">-->
+        <ul class="demoTabNav clearfix">
+            <li class="demoTabList current">前端</li>
+            <li class="demoTabList">实战</li>
+            <li class="demoTabList">交互</li>
+            <li class="demoTabList">优化</li>
+        </ul>
+   <!-- </div>-->
+    <div class="demoTabBd">
+        <div class="roundBox">
+            <div class="demoTabContent current">这是第一个选项卡的内容。</div>
+            <div class="demoTabContent">这是第二个选项卡的内容。</div>
+            <div class="demoTabContent">这是第三个选项卡的内容。</div>
+            <div class="demoTabContent">这是第四个选项卡的内容。</div>
+        </div>
+    </div>
+</div>
+
+<h3>负margin负位移技术应用：</h3>
+<div class="demoSpecItem">
+    <a href="javascript:void(0)" class="demoItemPic">
+        <img width="200" height="166" src="../img/html5jscss.jpg" alt="toygers kittens" />
+    </a>
+    <span class="demoIcon"><img width="54" height="54" src="../img/clip.jpg" alt="icon" /></span>
+</div>
+<h3>隐藏首（末）边框</h3>
+<ul class="cross">
+    <li>这里是一条信息</li>
+    <li>这里是一条信息</li>
+    <li>这里是一条信息</li>
+    <li>这里是一条信息</li>
+    <li>这里是一条信息</li>
+    <li>这里是一条信息</li>
+</ul>
+
+<ul class="vertical">
+    <li>这里是一条信息</li>
+    <li>这里是一条信息</li>
+    <li>这里是一条信息</li>
+    <li>这里是一条信息</li>
+    <li>这里是一条信息</li>
+    <li>这里是一条信息</li>
+</ul>
+</body>
+</html>
