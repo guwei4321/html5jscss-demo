@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d17fc61-77cb-40ce-8264-50eaf625087a" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\css\tour2012-main.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\imagesDemo\i1.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\imagesDemo\i2.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\imagesDemo\i3.gif" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\imagesDemo\sponsor-01.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\bg-01.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\bg-02.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\bg-03.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\box-bg-01.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\box-bg-02.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\box-bg-03.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\box-bg-04.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\box-title.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\images\video-on.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\index.html" afterPath="" />
-      <change type="DELETED" beforePath="E:\github\html5jscss-demo\xx\ivson-8-24\js\tour2012-main.js" afterPath="" />
+    <list id="6d17fc61-77cb-40ce-8264-50eaf625087a" name="Default" comment="" />
+    <list default="true" id="8914d12b-19fd-47a2-8c82-d28c5af08539" name="New changelist" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5css3/css3-gradients.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/first-children.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xHtml+css/css-border-radius.html" afterPath="$PROJECT_DIR$/xHtml+css/css-border-radius.html" />
     </list>
     <ignored path="html5jscss-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,19 +28,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README">
+      <file leaf-file-name="margin.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xHtml+css/margin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="9" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0">
+            <state line="35" column="67" selection-start="3630" selection-end="3630" vertical-scroll-proportion="-4.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event-delegation.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="css-border-radius.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xHtml+css/css-border-radius.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="31" selection-start="2220" selection-end="2220" vertical-scroll-proportion="1.6867925">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IE-hack.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xHtml+css/IE-hack.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="img-clip.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xHtml+css/img-clip.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input-acquiesce-css.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xHtml+css/input-acquiesce-css.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo-css.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-css.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="7" selection-start="1453" selection-end="1453" vertical-scroll-proportion="-14.67742">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="event-delegation.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript/event-delegation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="34" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.93869734">
+            <state line="74" column="17" selection-start="3899" selection-end="3899" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="first-children.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript/first-children.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="47" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout-margin3.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xHtml+css/layout/layout-margin3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="60" selection-start="897" selection-end="902" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout-margin4.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xHtml+css/layout/layout-margin4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="70" selection-start="753" selection-end="753" vertical-scroll-proportion="-1.1290323">
               <folding />
             </state>
           </provider>
@@ -75,15 +135,27 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/javascript/event-delegation.html" />
+        <option value="$PROJECT_DIR$/xHtml+css/layout/layout-margin.html" />
+        <option value="$PROJECT_DIR$/xHtml+css/layout/layout-margin3.html" />
+        <option value="$PROJECT_DIR$/xHtml+css/layout/layout-margin2.html" />
+        <option value="$PROJECT_DIR$/html5css3/css3-gradients.html" />
+        <option value="$PROJECT_DIR$/xHtml+css/layout/layout-margin4.html" />
+        <option value="$PROJECT_DIR$/xHtml+css/layout/layout-margin1.html" />
+        <option value="$USER_HOME$/Documents/Tencent Files/349177019/FileRecv/erke2012-index.css" />
+        <option value="$PROJECT_DIR$/javascript/first-children.html" />
+        <option value="$PROJECT_DIR$/demo-css.html" />
+        <option value="$PROJECT_DIR$/xHtml+css/css-border-radius.html" />
+        <option value="$PROJECT_DIR$/xHtml+css/v-ma.html" />
+        <option value="$PROJECT_DIR$/xHtml+css/margin.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="240" />
+    <option name="y" value="56" />
+    <option name="width" value="1936" />
+    <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -111,6 +183,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -129,14 +211,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5jscss-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html5jscss-demo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xHtml+css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -144,12 +230,28 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="124" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="130" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="settings.github" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="124" />
+    <property name="options.lastSelected" value="reference.settings.ide.settings.web.browsers" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="130" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="923" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
-    <property name="options.searchVisible" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="923" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="130" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="130" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
@@ -184,8 +286,9 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6d17fc61-77cb-40ce-8264-50eaf625087a" name="Default" comment="" />
+      <changelist id="8914d12b-19fd-47a2-8c82-d28c5af08539" name="New changelist" comment="" />
       <created>1334112309507</created>
-      <updated>1334112309507</updated>
+      <updated>1346239019601</updated>
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1343324978179</created>
@@ -203,29 +306,37 @@
       <created>1346224065748</created>
       <updated>1346224065748</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="提交">
+      <created>1346239000465</created>
+      <updated>1346239000465</updated>
+    </task>
+    <task id="LOCAL-00007" summary="New changelist">
+      <created>1346842153712</created>
+      <updated>1346842153712</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="240" y="56" width="1936" height="1035" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270548" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37253416" sideWeight="0.6729452" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17129135" sideWeight="0.5270758" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47292417" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270548" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -268,7 +379,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="New changelist" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -282,34 +393,102 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="提交" />
+    <MESSAGE value="New changelist" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo-css.html">
+    <entry file="file://$PROJECT_DIR$/html5css3/css3-Opacity&amp;Rgba&amp;Hsla.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="368" selection-start="669" selection-end="669" vertical-scroll-proportion="0.4521964" />
+        <state line="5" column="27" selection-start="283" selection-end="283" vertical-scroll-proportion="0.045219637" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html5css3/box-sizing.html">
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/349177019/FileRecv/erke2012-index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="664" selection-start="979" selection-end="979" vertical-scroll-proportion="0.31653747" />
+        <state line="8" column="33" selection-start="217" selection-end="217" vertical-scroll-proportion="0.32258064" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/xHtml+css/layout/layout-margin1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="364" selection-end="364" vertical-scroll-proportion="0.81395346" />
+        <state line="8" column="54" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README">
+    <entry file="file://$PROJECT_DIR$/xHtml+css/layout/layout-margin2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="9" selection-start="74" selection-end="74" vertical-scroll-proportion="0.0" />
+        <state line="21" column="12" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/javascript/event-delegation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="34" selection-start="3951" selection-end="3951" vertical-scroll-proportion="0.93869734">
+        <state line="74" column="17" selection-start="3899" selection-end="3899" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/first-children.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="47" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xHtml+css/layout/layout-margin3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="60" selection-start="897" selection-end="902" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/html5jscss.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/rounded-corner-sprite.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xHtml+css/layout/layout-margin4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="70" selection-start="753" selection-end="753" vertical-scroll-proportion="-1.1290323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="7" selection-start="1453" selection-end="1453" vertical-scroll-proportion="-14.67742">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xHtml+css/IE-hack.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xHtml+css/img-clip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xHtml+css/input-acquiesce-css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xHtml+css/margin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="67" selection-start="3630" selection-end="3630" vertical-scroll-proportion="-4.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xHtml+css/css-border-radius.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="31" selection-start="2220" selection-end="2220" vertical-scroll-proportion="1.6867925">
           <folding />
         </state>
       </provider>

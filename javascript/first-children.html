@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="textml; charset=utf-8"/>
+    <title>無標題文件</title>
+    <script type="text/javascript">
+        var util = {};
+        util.first = function(element){
+            if(!element) return;
+            return element[element.firstElementChild ? 'firstElementChild':'firstChild'];
+        };
+
+        until.first = function(element){
+            if(!element) return;
+
+            var first = element.firstChild;
+            while(first && first && first.nodeType !== 1) first = first = first.nextSibling;
+            return first;
+        };
+
+        until.first = function (element, tag) {
+            if(!element) return;
+            tag = tag || '*';
+            return element.querySelector?element.quarSelector(tag):element.getElementByTagName(tag)[0];
+        };
+
+        until.first = function (element){
+            return element && element.children[0];
+        }
+
+    </script>
+</head>
+
+<body>
+</body>
+</html>
