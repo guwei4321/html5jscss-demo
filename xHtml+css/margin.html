@@ -14,7 +14,7 @@
                 .margin-merge3{margin:40px;background-color:red}
                 .margin-merge4{margin:-2px 0 10px;background-color:#fff}
                 .overlap-warp{position:relative;width:200px;height:300px;background-color:#adff2f;}
-                .overlap-warp .pos{position:absolute;width:100px;height:100px;display:inline;}
+                .overlap-warp .pos{position:absolute;width:100px;height:100px;}
                 .overlap-warp .float{margin:0 0 0 100px;background-color:#eee8aa;}
                 .double-margin{width:820px;background-color:#fff;border:1px solid #ddd;overflow:hidden;_zoom:1;}
                 .double-margin-sub{float:left;width:200px;margin:0 0 0 20px;background:red}
@@ -23,8 +23,7 @@
                 .demoTab .demoTabNav{height:28px; overflow:hidden; *zoom:1;margin-bottom:-1px; border:1px solid red; border-bottom:none; background:#EAF0FD;}
                 .demoTab .demoTabList{float:left; margin-left:-1px;  padding:0 22px; line-height:28px; border-left:1px solid red; border-right:1px solid red;  font-weight:bold; color:#005590; text-align:center; cursor:pointer;}
                 .demoTab .demoTabList.current{position:relative; background:#fff;}
-                .demoTab .demoTabBd{border:1px solid red;}
-                .demoTab .demoTabBd .roundBox{padding:15px;}
+                .demoTab .demoTabBd{border:1px solid red;padding:15px;}
                 .demoTab .demoTabContent{display:none;}
                 .demoTab .demoTabContent.current{display:block;}
                 .demoSpecItem{width:212px; min-height:178px; _height:178px;}
@@ -33,8 +32,8 @@
                 .demoSpecItem .demoIcon{display:block; margin:-185px 0 0 150px;}
                 .cross{overflow: hidden;zoom: 1;}
                 .cross li{float: left;padding: 0 11px 0 10px;border-left:1px solid #AAA;margin-left:-1px;}
-                .vertical{overflow: hidden;position: relative;zoom:1; }
-                .vertical li{border-top:1px dashed #CEE1EE;padding:5px 0;position:relative;top:-1px;}
+                .vertical{overflow: hidden;_zoom:1; }
+                .vertical li{border-top:1px dashed #CEE1EE;padding:5px 0;margin:-1px 0 0}
     </style>
 </head>
 <body>
@@ -73,9 +72,9 @@
 <h3>IE6/7下margin与absolute元素重叠bug</h3>
 
 <div class="overlap-warp">
-    <div class="pos">
+    <span class="pos">
        内容
-    </div>
+    </span>
     <div class="float">
         内容
     </div>
@@ -87,22 +86,18 @@
 
 <h3>利用负值的 tab 选项卡</h3>
 <div id="demoTab" class="demoTab">
-    <!--<div class="demoTabHd">-->
-        <ul class="demoTabNav clearfix">
-            <li class="demoTabList current">前端</li>
-            <li class="demoTabList">实战</li>
-            <li class="demoTabList">交互</li>
-            <li class="demoTabList">优化</li>
-        </ul>
-   <!-- </div>-->
-    <div class="demoTabBd">
-        <div class="roundBox">
-            <div class="demoTabContent current">这是第一个选项卡的内容。</div>
-            <div class="demoTabContent">这是第二个选项卡的内容。</div>
-            <div class="demoTabContent">这是第三个选项卡的内容。</div>
-            <div class="demoTabContent">这是第四个选项卡的内容。</div>
-        </div>
-    </div>
+    <ul class="demoTabNav clearfix">
+        <li class="demoTabList current">前端</li>
+        <li class="demoTabList">实战</li>
+        <li class="demoTabList">交互</li>
+        <li class="demoTabList">优化</li>
+    </ul>
+    <ul class="demoTabBd">
+        <li class="demoTabContent current">这是第一个选项卡的内容。</li>
+        <li class="demoTabContent">这是第二个选项卡的内容。</li>
+        <li class="demoTabContent">这是第三个选项卡的内容。</li>
+        <li class="demoTabContent">这是第四个选项卡的内容。</li>
+    </ul>
 </div>
 
 <h3>负margin负位移技术应用：</h3>
