@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="6d17fc61-77cb-40ce-8264-50eaf625087a" name="Default" comment="" />
-    <list default="true" id="8914d12b-19fd-47a2-8c82-d28c5af08539" name="New changelist" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html5css3/css3-gradients.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/first-children.html" />
+    <list default="true" id="8914d12b-19fd-47a2-8c82-d28c5af08539" name="New changelist" comment="New changelist">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/js-prestrain.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xHtml+css/css-border-radius.html" afterPath="$PROJECT_DIR$/xHtml+css/css-border-radius.html" />
     </list>
     <ignored path="html5jscss-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,6 +21,7 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="html5jscss-demo" />
   </component>
@@ -31,88 +30,16 @@
       <file leaf-file-name="margin.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/xHtml+css/margin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="67" selection-start="3630" selection-end="3630" vertical-scroll-proportion="-4.125">
+            <state line="48" column="50" selection-start="4325" selection-end="4325" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css-border-radius.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xHtml+css/css-border-radius.html">
+      <file leaf-file-name="css3-gradients.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html5css3/css3-gradients.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="31" selection-start="2220" selection-end="2220" vertical-scroll-proportion="1.6867925">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IE-hack.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xHtml+css/IE-hack.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="img-clip.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xHtml+css/img-clip.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input-acquiesce-css.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xHtml+css/input-acquiesce-css.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo-css.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-css.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="7" selection-start="1453" selection-end="1453" vertical-scroll-proportion="-14.67742">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event-delegation.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/event-delegation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="17" selection-start="3899" selection-end="3899" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="first-children.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javascript/first-children.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="47" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout-margin3.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xHtml+css/layout/layout-margin3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="60" selection-start="897" selection-end="902" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout-margin4.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/xHtml+css/layout/layout-margin4.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="70" selection-start="753" selection-end="753" vertical-scroll-proportion="-1.1290323">
+            <state line="26" column="77" selection-start="3549" selection-end="3549" vertical-scroll-proportion="0.29271206">
               <folding />
             </state>
           </provider>
@@ -131,31 +58,31 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/html5css3/box-sizing.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/README" />
-        <option value="$PROJECT_DIR$/javascript/event-delegation.html" />
-        <option value="$PROJECT_DIR$/xHtml+css/layout/layout-margin.html" />
-        <option value="$PROJECT_DIR$/xHtml+css/layout/layout-margin3.html" />
-        <option value="$PROJECT_DIR$/xHtml+css/layout/layout-margin2.html" />
-        <option value="$PROJECT_DIR$/html5css3/css3-gradients.html" />
-        <option value="$PROJECT_DIR$/xHtml+css/layout/layout-margin4.html" />
         <option value="$PROJECT_DIR$/xHtml+css/layout/layout-margin1.html" />
         <option value="$USER_HOME$/Documents/Tencent Files/349177019/FileRecv/erke2012-index.css" />
         <option value="$PROJECT_DIR$/javascript/first-children.html" />
         <option value="$PROJECT_DIR$/demo-css.html" />
         <option value="$PROJECT_DIR$/xHtml+css/css-border-radius.html" />
         <option value="$PROJECT_DIR$/xHtml+css/v-ma.html" />
+        <option value="$PROJECT_DIR$/xHtml+css/z-index.html" />
+        <option value="$PROJECT_DIR$/html5css3/body-background-size.html" />
+        <option value="$PROJECT_DIR$/xHtml+css/box-context.html" />
+        <option value="$PROJECT_DIR$/xHtml+css/negative-margin.html" />
+        <option value="$PROJECT_DIR$/javascript/js-prestrain.js" />
+        <option value="$PROJECT_DIR$/javascript/js-prestrain.html" />
+        <option value="$PROJECT_DIR$/xHtml+css/layout-margin.html" />
         <option value="$PROJECT_DIR$/xHtml+css/margin.html" />
+        <option value="$PROJECT_DIR$/xHtml+css/inline-block.html" />
+        <option value="F:/我的微盘/文档/opacity.html" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="240" />
-    <option name="y" value="56" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1035" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -221,7 +148,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xHtml+css" />
+              <option name="myItemId" value="html5css3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -314,29 +241,46 @@
       <created>1346842153712</created>
       <updated>1346842153712</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="New changelist">
+      <created>1346842370030</created>
+      <updated>1346842370030</updated>
+    </task>
+    <task id="LOCAL-00009" summary="New changelist">
+      <created>1346929917946</created>
+      <updated>1346929917946</updated>
+    </task>
+    <task id="LOCAL-00010" summary="New changelist">
+      <created>1347174323058</created>
+      <updated>1347174323058</updated>
+    </task>
+    <task id="LOCAL-00011" summary="New changelist">
+      <created>1347275991450</created>
+      <updated>1347275991450</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="240" y="56" width="1936" height="1035" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270548" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17129135" sideWeight="0.5270758" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10832444" sideWeight="0.46868008" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11419424" sideWeight="0.52348995" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47292417" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4720358" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270548" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -364,7 +308,6 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
     <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
@@ -374,7 +317,6 @@
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
@@ -399,96 +341,78 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html5css3/css3-Opacity&amp;Rgba&amp;Hsla.html">
+    <entry file="file://$PROJECT_DIR$/html5css3/css3-gradients.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="283" selection-end="283" vertical-scroll-proportion="0.045219637" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/349177019/FileRecv/erke2012-index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="33" selection-start="217" selection-end="217" vertical-scroll-proportion="0.32258064" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xHtml+css/layout/layout-margin1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="54" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xHtml+css/layout/layout-margin2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="1512" selection-end="1512" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/event-delegation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="17" selection-start="3899" selection-end="3899" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/first-children.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xHtml+css/layout/layout-margin3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="60" selection-start="897" selection-end="902" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/html5jscss.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/rounded-corner-sprite.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xHtml+css/layout/layout-margin4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="70" selection-start="753" selection-end="753" vertical-scroll-proportion="-1.1290323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-css.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="1453" selection-end="1453" vertical-scroll-proportion="-14.67742">
+        <state line="25" column="35" selection-start="3317" selection-end="3317" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xHtml+css/IE-hack.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xHtml+css/img-clip.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/first-children.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="43" selection-start="914" selection-end="914" vertical-scroll-proportion="0.24731183" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/event-delegation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="74" selection-start="4309" selection-end="4309" vertical-scroll-proportion="3.4707289" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-css.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="7" selection-start="1453" selection-end="1453" vertical-scroll-proportion="0.7108722" />
+      </provider>
+    </entry>
+    <entry file="file://F:/我的微盘/文档/幻灯片 方法不错/demo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="8" selection-start="590" selection-end="590" vertical-scroll-proportion="0.057692308" />
+      </provider>
+    </entry>
+    <entry file="file://F:/我的微盘/文档/scroll-slide/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="38" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://F:/我的微盘/文档/幻灯片 方法不错/slider_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="29" selection-start="1466" selection-end="1466" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/js-prestrain.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="43" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xHtml+css/input-acquiesce-css.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xHtml+css/inline-block.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="14" selection-start="615" selection-end="615" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/xHtml+css/margin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="67" selection-start="3630" selection-end="3630" vertical-scroll-proportion="-4.125">
+        <state line="48" column="50" selection-start="4325" selection-end="4325" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xHtml+css/css-border-radius.html">
+    <entry file="file://$PROJECT_DIR$/html5css3/css3-gradients.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="31" selection-start="2220" selection-end="2220" vertical-scroll-proportion="1.6867925">
+        <state line="26" column="77" selection-start="3549" selection-end="3549" vertical-scroll-proportion="0.29271206">
           <folding />
         </state>
       </provider>

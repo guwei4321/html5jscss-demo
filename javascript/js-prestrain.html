@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="textml; charset=utf-8"/>
+    <title>無標題文件</title>
+    <script>
+
+        //usage： cache.html?v=123
+
+        var win = window,
+
+                doc = document,
+
+                head = doc.getElementsByTagName("head")[0],
+
+                getQuery = function(){
+
+                    var ret = {},
+
+                            sch = win.location.search,
+
+                            arr,
+
+                            tmp;
+
+                    if (sch) {
+
+                        sch = sch.substr(1);
+
+                        arr = sch.split("&");
+
+                        for(var i = 0, j = arr.length; i < j; i++) {
+
+                            tmp = arr[i].split('=');
+
+                            ret[tmp[0]] = tmp[1];
+
+                        }
+
+                    }
+
+                    return ret;
+
+                },
+
+                version = getQuery().v || '';
+
+
+
+        win.onerror = function(){return true}; //屏蔽js错误提示
+
+
+
+        win.onload = function(){
+
+            var b = doc.createElement("script");
+
+            b.src = 'http://xx/1.js?v=' + version;
+
+            head.appendChild(b);
+
+            //...
+
+        };
+
+        doc.write('<link rel="stylesheet" href="http://xxx/3.css?version=' + version + '" \/>');
+
+    </script>
+
+    <img src="http://xxx/4.png" />
+
+    </body></html>
